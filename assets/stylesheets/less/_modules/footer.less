@@ -1,0 +1,26 @@
+// --------------------------------------------------
+// _layouts/footer.less
+// --------------------------------------------------
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: @footer-height; // Set the fixed height of the footer here
+  margin-top: 40px;
+  background-color: @footer-bg-color;
+  border-top: 1px solid darken(@footer-bg-color, 6%);
+  
+  p {
+    .text-center();
+    color: darken(@footer-bg-color, 20%);
+    margin-bottom: @line-height-computed;
+    font-size: floor((@font-size-base * 1.25));
+    font-weight: 300;
+    line-height: 1.4;
+
+    @media (min-width: @screen-sm-min) {
+      font-size: (@font-size-base * 1.5);
+    }
+  }
+}

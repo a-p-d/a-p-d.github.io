@@ -1,0 +1,35 @@
+# Server
+baseurl:          /
+encoding:         UTF-8
+
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Meta
+title:            APD
+author:
+  name:           BOULAY Fabien
+  url:            http://a-p-d.github.io
+  email:          fabien.creative@gmail.com
+
+# Setup
+permalink:        pretty
+paginate:         1
+excerpt_separator: <!--more-->
+
+# Folders & files to ignore
+exclude: [
+  .git,
+  .gitignore,
+  .editorconfig,
+  .bowerrc,
+  .DS_Store,
+  CNAME,
+  bower.json,
+  package.json, 
+  Gruntfile.js, 
+  node_modules,
+  config,
+  readme.md
+]
